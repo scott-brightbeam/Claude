@@ -1,0 +1,31 @@
+{
+  "name": "capstone-evaluation-automation",
+  "version": "1.0.0",
+  "description": "Batch processor for Ibec AI Programme capstone submissions evaluation",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "process": "node src/index.js --process",
+    "test": "node src/test-evaluation.js",
+    "generate-sample": "node src/generate-sample-report.js"
+  },
+  "keywords": [
+    "capstone",
+    "evaluation",
+    "ibec",
+    "ai-programme",
+    "docx",
+    "automation"
+  ],
+  "author": "Ibec AI Programme",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "docx": "^8.5.0",
+    "exceljs": "^4.4.0",
+    "googleapis": "^140.0.0",
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1",
+    "xlsx": "^0.18.5"
+  }
+}

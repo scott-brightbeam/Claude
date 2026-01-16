@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Output directories
+output/
+/tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Credentials (never commit)
+credentials.json
+service-account.json
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
