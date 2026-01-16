@@ -3,11 +3,11 @@
  * Capstone Evaluation Batch Processor
  *
  * Main entry point for processing capstone submissions from Google Drive
- * and generating evaluation reports.
+ * or local folder and generating evaluation reports.
  *
  * Usage:
- *   node src/index.js --process                    # Process all submissions
- *   node src/index.js --process --credentials=./creds.json  # With credentials file
+ *   node src/index.js --process --local=./submissions  # Process from local folder
+ *   node src/index.js --process --credentials=./creds.json  # With Google Drive
  *   node src/index.js --test                       # Run with test data
  */
 
@@ -16,6 +16,7 @@ import { mkdir, appendFile, writeFile, readFile } from 'fs/promises';
 import path from 'path';
 
 import { createDriveClient, SOURCE_FOLDER_ID } from './modules/google-drive.js';
+import { createLocalProcessor } from './modules/local-files.js';
 import { evaluateSubmission } from './modules/evaluator.js';
 import { generateEvaluationReport, validateEvaluationData } from './modules/docx-generator.js';
 import { generateSummaryWorkbook } from './modules/excel-generator.js';
@@ -353,6 +354,7 @@ function parseArgs() {
     process: false,
     test: false,
     credentials: null,
+    local: null,
     help: false
   };
 
@@ -362,6 +364,9 @@ function parseArgs() {
     else if (arg === '--help' || arg === '-h') options.help = true;
     else if (arg.startsWith('--credentials=')) {
       options.credentials = arg.split('=')[1];
+    }
+    else if (arg.startsWith('--local=')) {
+      options.local = arg.split('=')[1];
     }
   }
 
@@ -380,13 +385,16 @@ Usage:
   node src/index.js [options]
 
 Options:
-  --process                Process all submissions from Google Drive
-  --test                   Run with sample data (no Google Drive required)
+  --process                Process all submissions
+  --local=<folder>         Process from local folder (recommended)
   --credentials=<path>     Path to Google service account JSON file
+  --test                   Run with sample data (no Google Drive required)
   --help, -h               Show this help message
 
 Examples:
   node src/index.js --test
+  node src/index.js --process --local=./submissions
+  node src/index.js --process --local="~/Downloads/Capstone_Submissions"
   node src/index.js --process --credentials=./service-account.json
 
 Environment Variables:
@@ -394,6 +402,137 @@ Environment Variables:
 
 For more information, see the README.md file.
 `);
+}
+
+/**
+ * Process from local folder
+ */
+async function processLocalBatch(localPath) {
+  console.log('\n' + '='.repeat(60));
+  console.log('CAPSTONE EVALUATION BATCH PROCESSOR (LOCAL MODE)');
+  console.log('='.repeat(60) + '\n');
+
+  // Expand home directory if needed
+  if (localPath.startsWith('~')) {
+    localPath = localPath.replace('~', process.env.HOME);
+  }
+
+  // Resolve to absolute path
+  localPath = path.resolve(localPath);
+
+  if (!existsSync(localPath)) {
+    console.error(`Error: Folder not found: ${localPath}`);
+    process.exit(1);
+  }
+
+  console.log(`Source folder: ${localPath}`);
+
+  // Initialize
+  const logs = await initializeOutput();
+  const stats = { total: 0, successful: 0, errors: 0 };
+  const evaluations = [];
+
+  // Initialize local file processor
+  const processor = createLocalProcessor(localPath);
+
+  // Phase 1: Index all files
+  console.log('\n--- PHASE 1: INDEXING FILES ---\n');
+  const files = await processor.listAllFiles();
+  const participants = processor.groupFilesByParticipant(files);
+
+  const participantNames = Object.keys(participants);
+  stats.total = participantNames.length;
+
+  console.log(`Found ${stats.total} participants to process\n`);
+  await logProgress(logs.processLogPath, `Starting batch processing of ${stats.total} participants from local folder`);
+
+  // Phase 2: Process each participant
+  console.log('\n--- PHASE 2: PROCESSING SUBMISSIONS ---\n');
+
+  for (let i = 0; i < participantNames.length; i++) {
+    const name = participantNames[i];
+    const participant = participants[name];
+
+    console.log(`\nProcessing [${i + 1}/${stats.total}]: ${name}`);
+
+    try {
+      // Fetch content
+      const content = await processor.fetchParticipantContent(participant);
+
+      if (!content.mainContent && content.supportingContent.length === 0) {
+        throw new Error('No content could be extracted from files');
+      }
+
+      // Combine all content
+      let combinedContent = content.mainContent;
+      for (const support of content.supportingContent) {
+        combinedContent += `\n\n--- Supporting Document: ${support.name} ---\n\n${support.content}`;
+      }
+
+      // Evaluate submission
+      const evaluation = evaluateSubmission(name, combinedContent, content.filesProcessed);
+
+      // Generate DOCX report
+      const sanitizedName = name.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '_');
+      const reportPath = path.join(OUTPUT_DIR, `${sanitizedName}_Capstone_Evaluation.docx`);
+      await generateEvaluationReport(evaluation, reportPath);
+
+      // Log success
+      await logProgress(logs.processLogPath, `Completed: ${name} - ${evaluation.fullScore.toFixed(2)}/5.00 [${evaluation.fullBand}]`);
+      console.log(`  Score: ${evaluation.fullScore.toFixed(2)}/5.00 [${evaluation.fullBand}]`);
+
+      stats.successful++;
+      evaluations.push(evaluation);
+
+    } catch (error) {
+      await logError(logs.errorLogPath, name, error.message);
+      console.error(`  Error: ${error.message}`);
+      stats.errors++;
+
+      evaluations.push({
+        participantName: name,
+        projectTitle: 'Error during processing',
+        fullScore: 0,
+        fullBand: 'ERROR',
+        quadrantScore: 0,
+        quadrantBand: 'ERROR',
+        categoryScores: {},
+        ebiaScore: 0,
+        keyStrength: 'N/A',
+        priorityDevelopment: 'N/A',
+        filesProcessed: 0,
+        processingNotes: error.message
+      });
+    }
+
+    // Progress report every 10 participants
+    if ((i + 1) % 10 === 0) {
+      console.log(`\n--- Progress: ${i + 1}/${stats.total} complete (${stats.errors} errors) ---\n`);
+    }
+  }
+
+  // Phase 3: Generate cohort summary
+  console.log('\n--- PHASE 3: GENERATING SUMMARY SPREADSHEET ---\n');
+
+  const validEvaluations = evaluations.filter(e => e.fullBand !== 'ERROR');
+  const summaryPath = path.join(OUTPUT_DIR, `Cohort_Summary_${formatDate(new Date())}.xlsx`);
+
+  await generateSummaryWorkbook(validEvaluations, summaryPath, { errors: stats.errors });
+  console.log(`Summary spreadsheet generated: ${summaryPath}`);
+
+  // Final report
+  console.log('\n' + '='.repeat(60));
+  console.log('BATCH PROCESSING COMPLETE');
+  console.log('='.repeat(60));
+  console.log(`\nTotal participants: ${stats.total}`);
+  console.log(`Successful: ${stats.successful}`);
+  console.log(`Errors: ${stats.errors}`);
+  console.log(`\nOutput directory: ${OUTPUT_DIR}`);
+  console.log('='.repeat(60) + '\n');
+
+  await logProgress(logs.processLogPath, `\nBATCH COMPLETE: ${stats.successful}/${stats.total} successful, ${stats.errors} errors`);
+
+  return { stats, evaluations, outputDir: OUTPUT_DIR };
 }
 
 // Main execution
@@ -404,7 +543,20 @@ if (options.help) {
 } else if (options.test) {
   runTestMode().catch(console.error);
 } else if (options.process) {
-  processBatch(options.credentials).catch(console.error);
+  if (options.local) {
+    // Process from local folder
+    processLocalBatch(options.local).catch(console.error);
+  } else if (options.credentials) {
+    // Process from Google Drive with credentials
+    processBatch(options.credentials).catch(console.error);
+  } else {
+    // Try default Google Drive credentials or show local option
+    console.log('No source specified.');
+    console.log('\nFor local processing (recommended):');
+    console.log('  node src/index.js --process --local="~/Downloads/Capstone_Submissions"');
+    console.log('\nFor Google Drive processing:');
+    console.log('  node src/index.js --process --credentials=./credentials.json');
+  }
 } else {
   console.log('No action specified. Use --help for usage information.');
   console.log('Quick start: node src/index.js --test');
@@ -413,6 +565,7 @@ if (options.help) {
 // Export for programmatic use
 export {
   processBatch,
+  processLocalBatch,
   processWithManualCredentials,
   runTestMode,
   initializeOutput,
