@@ -1,0 +1,273 @@
+# AI Daily Brief: AGI Timelines Shift Forward
+## Podcast Transcript - January 22, 2026
+
+**Host:** Nathaniel Whittemore (NLW)
+**Duration:** 21:11
+**Source:** https://anchor.fm/s/f7cac464/podcast/play/114368172/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-22%2F416593762-44100-2-56aff435bc48c.mp3
+
+---
+
+## INTRODUCTION
+
+[0:00] Today on the AI Daily Brief, AGI timelines are moving forward with implications for global AI policy.
+
+Before that in the headlines, Google's AI leads says that there are no plans for ads in Gemini.
+
+The AI Daily Brief is a daily podcast and video about the most important news and discussions in AI.
+
+## ANNOUNCEMENTS
+
+[0:24] Alright, friends, quick announcements before we dive in.
+
+First of all, thank you to today's sponsors, KPMG, Section, Zencoder and Superintelligent.
+
+To get an ad-free version of the show, go to patreon.com/aidaillybrief or you can subscribe on Apple Podcasts and if you are interested in sponsoring the show, send us a note at sponsors at aidailybrief.ai.
+
+You can also visit aidailybrief.ai to find out anything else you might need about the show. You can get access to our new Superintelligent Compass Beta, learn more about our forthcoming AIDB Intel product, or even join our free AI builder community.
+
+With all that out of the way though, let's look over to all of the conversations coming out of Davos.
+
+---
+
+## HEADLINES EDITION
+
+[0:59] Welcome back to the AI Daily Brief headlines edition, all the daily AI news you need in around 5 minutes.
+
+Today's main episode is all about comments from Davos and actually that's where our headlines begin as well.
+
+### Google: No Plans for Ads in Gemini
+
+One of the big conversations for the past week or so has been OpenAI's plans to introduce ads into ChatGPT. Now, I did an extensive show about this earlier in the week, but one of the major points of conversation, especially on places like Twitter slash X, was how ads impacted the competitive dynamics.
+
+And specifically, would it be an advantage for Google, either A, in that perhaps because of their deep capitalization and balance sheet, they wouldn't have to do ads in Gemini, or B, because they have more experience with ads.
+
+While speaking with Alex Heath of Sources, DeepMind CEO Demis Hassabis says that at the moment Google doesn't have any plans to bring advertising to Gemini, commenting on ChatGPT ads, he said it's interesting they've gone for that so early, maybe they feel they need to make more revenue.
+
+Now, the comments do buck a string of recent reporting around Google's plans. In December, for example, Adweek reported that Google had told advertising clients that ad placements in Gemini were targeted for a 2026 rollout. That reporting was sourced from at least two advertising clients, who requested anonymity to discuss the meetings. They said that Google had not shared prototypes or specifications for how ads would appear in Gemini, suggesting the discussions were still in a very early stage.
+
+And yet, the reporting was clear that this was about ads directly in the chatbot rather than appearing through the use of AI mode in search.
+
+Speaking with Business Insider last week, Dan Taylor, who is Google's VP of Global Ads, said there were no plans for ads in the Gemini app and elaborated on the distinction between Google's businesses.
+
+Search in Gemini, he said, are complementary tools with different roles. While they both use AI, Search is where you go for information on the web, and Gemini is your AI assistant. Search is helping you discover new information which can include commercial interests like new products or services. We see Gemini is helping you create, analyze, and complete that.
+
+However, he did note that AI mode in search and Gemini are slowly converging with the introduction of AI shopping features. Google is already offering ads in AI search, including a new feature called DirectOffers that presents a personalized discount in AI mode.
+
+I think it's an interesting choice to fully deny that they've got these plans. While on the one hand, I do believe that Google may see an opportunity to win some margin off of ChatGPT by holding out longer on ads, I don't think there's any chance in the world that Gemini's free version stays forever ad free either. But who knows, just holding out for a year, depending on consumer response to these ads, could be enough to make a difference.
+
+### Meta Scaling Back In-House Chip Program
+
+[3:30] Next up, Meta is rumored to be scaling back their in-house chip program.
+
+Last we heard about the program in August, design had been completed in collaboration with Broadcom and Meta was ramping up orders. In November, the Information reported that Meta was in talks with Google to order billions of dollars worth of their TPUs. That potentially signaled a pivot away from their custom silicon, but the reports were very thin.
+
+Now, analyst Jeff Poo of High Tongue Securities reports in a research note that Meta is deprioritizing their deployment of custom silicon. Poo notes that this lines up with a broader shift where the hyperscalers are more focused on immediate compute needs than self-sufficiency.
+
+Still, Meta is reportedly looking for ways to avoid paying the Nvidia tax. The latest report suggests that instead of looking to become one of Google's first large TPU customers, they are instead placing large orders from AMD's latest chips.
+
+Poo claimed that this isn't a full replacement of Meta's fleet, but rather a strategic purchase to meet short-term requirements more efficiently. Poo reported that Meta could still deploy their custom silicon at a later date, with a focus on specialized workloads.
+
+I think that the more interesting conversation is what this implies around a shift overall. Alongside Meta, OpenAI and Anthropic launched custom silicon programs last year with an aim to reduce reliance on Nvidia and AMD. But it seems increasingly unlikely that these custom silicon initiatives will make sense in the context of rapidly accelerating compute needs.
+
+Some are even questioning whether there's any financial benefit to developing an in-house chip, with investor Nikolai's GoNNS posting, AMD's total cost of ownership and performance per watt in their latest chips, beats out anything Meta can do internally and TPUs apparently too.
+
+Last year was all about how Nvidia and AMD could see erosion of market share. Now it seems the hyperscalers won't have the luxury of seeking alternatives, and could fall back on established players to keep up with demand.
+
+### OpenAI-ServiceNow Partnership
+
+[5:29] In partnership news, OpenAI has signed a three-year deal to integrate their AI models into ServiceNow's platform.
+
+The Wall Street Journal reported that ServiceNow users would be able to choose OpenAI's models within the platform, and the deal would involve a revenue commitment from ServiceNow.
+
+OpenAI CEO Brad Lightcap told the Journal, Enterprises want OpenAI intelligence applied directly into ServiceNow workflows. Looking ahead, customers are especially interested in agentic and multimodal experiences, so they can work with AI like a true teammate inside ServiceNow.
+
+ServiceNow president Amit Zavry said the integration will go way beyond back end optimizations. He said that OpenAI's computer use agents will be granted access to IT tasks like restarting a computer remotely, essentially allowing them to function as automated IT support. Zavry said the agents could also help companies access data stuck in legacy systems like mainframe computers.
+
+The computer use models are basically now doing this through learning, and feeding it back into the ServiceNow workflow platform.
+
+I think we're going to learn a lot this year about exactly how the agentic business model is going to shake out. It is a very different approach to try to integrate your technology inside other delivery platforms like ServiceNow versus just trying to be the ServiceNow. I don't think it's clear exactly how that plays out, but I think there's going to be a lot of experiments this year.
+
+It also, however, continues to be a land grab for enterprise business, and I expect that to just do nothing but ramp up throughout the year.
+
+### OpenAI Hardware Device Update
+
+[6:24] Lastly today, one more OpenAI report.
+
+We have of course been tracking closely when OpenAI's first hardware will come out, and apparently it's set to be unveiled later this year.
+
+In an on-stage interview with Axios at Davos, OpenAI Chief Global Affairs Officer Chris Lahain flagged that devices was a big theme for the company moving forward. He said that OpenAI was, in his words, on track to unveil their device in the latter part of 2026.
+
+Now, he was careful to caveat almost everything about the device rollout. He refused to discuss form factor, and he wouldn't commit to this being a product release timeline rather than just an unveiling. He added that this year was, quote, most likely, but we'll see how things advance.
+
+When the interviewer tried to present this as breaking news that we'd get the device this year, Lahain tried to correct him adding, I didn't say it's coming this year, I said we're on track.
+
+Now, it's unclear if Lahain's comments referred to the original puck design, the recently rumored behind the ear capsule-shaped device, or a third different thing. In reporting the news, Gizmodo said, no, there have not been any updates about what the hell it is.
+
+However, that was far from the only thing that we got at the World Economic Forum, and so with that, we'll close the headlines and move on to the main episode.
+
+---
+
+## SPONSOR: KPMG - You Can with AI
+
+[7:27] Hello, friends.
+
+If you've been enjoying what we've been discussing on the show, you'll want to check out another podcast that I've had the privilege to host, which is called You Can with AI from KPMG.
+
+Season 1 was designed to be a set of real stories from real leaders, making AI work in their organizations, and now season 2 is coming, and we're back with even bigger conversations.
+
+This show is entirely focused on what it's like to actually drive AI change inside your enterprise, and has case studies, expert panels, and a lot more practical goodness that I hope will be extremely valuable for you as the listener.
+
+Watch You Can with AI on Apple, Spotify, or YouTube, and subscribe today.
+
+---
+
+## SPONSOR: Section
+
+[8:09] Here's a harsh truth. Your company is probably spending thousands or millions of dollars on AI tools that are being massively underutilized.
+
+Half of companies have AI tools, but only 12% use them for business value. Most employees are still using AI to summarize meeting notes.
+
+If you're the one responsible for AI adoption at your company, you need Section. Section is a platform that helps you manage AI transformation across your entire organization. It coaches employees on real use cases, tracks who's using AI for business impact, and shows you exactly where AI is and isn't creating value.
+
+The result? You go from rolling out tools to driving measurable AI value. Your employees move from meeting summaries to solving actual business problems, and you can prove the ROI.
+
+Stop guessing if your AI investment is working. Check out section at sectionai.com. That's S-E-C-T-I-O-N-A-I dot com.
+
+---
+
+## SPONSOR: Zencoder/Zenflow
+
+[8:57] If you're using AI to code, ask yourself. Are you building software, or are you just playing prompt roulette?
+
+We know that unstructured prompting works at first, but eventually it leads to AI slop and technical debt. Enter Zenflow.
+
+Zenflow takes you from vibe coding to AI first engineering. It's the first AI orchestration layer that brings discipline to the chaos. It transforms freeform prompting into spec driven workflows and multi-agent verification, where agents actually cross-check each other to prevent drift.
+
+You can even command a fleet of parallel agents to implement features and fix bugs simultaneously. We've seen teams accelerate delivery 2x to 10x.
+
+Stop gambling with prompts. Start orchestrating your AI. Turn raw speed into reliable production grade output at Zenflow.free.
+
+---
+
+## SPONSOR: Superintelligent
+
+[9:46] Today's episode is brought to you by my company Superintelligent.
+
+In 2026, one of the key themes in Enterprise AI, if not the key theme, is going to be how good is the infrastructure into which you are putting AI and agents.
+
+Superintelligence agent readiness audits are specifically designed to help you figure out one, where and how AI and agents can maximize business impact for you, and two, what you need to do to set up your organization to be best able to leverage those new gains.
+
+If you want to truly take advantage of how AI and agents can not only enhance productivity, but actually fundamentally change outcomes in measurable ways in your business this year, go to bsuper.ai.
+
+---
+
+## MAIN EPISODE: AGI Timelines at Davos
+
+[10:25] Welcome back to the AI Daily Brief.
+
+Right now, the annual World Economic Forum is going on in Davos, and as much as people love to hate on the event, it is a good chance every year to see the pulse of where the conversation is among global leaders.
+
+And while this year, of course, much of the conversation is focused around Greenland, there is another profound shift that is also getting a significant amount of airtime, which is of course AI, but not just AI in general, but specifically the way that timelines are accelerating.
+
+### Dario Amodei and Demis Hassabis on AGI Timelines
+
+Both Anthropic's Dario Amodei and Google DeepMind's Demis Hassabis had numerous interviews yesterday. In fact, Dario almost feels like he's on a little press tour, and let's just say many of the headlines were pretty significantly attention-grabbing.
+
+For both of these folks, AGI timelines are shifting forward.
+
+Now, Demis has it on a five-year timeline, and I think overall sort of gives the impression that his sense is that the last mile to AGI is perhaps more difficult than we give it credit for. In other words, not just a matter of throwing more compute and recursively self-improving code.
+
+Dario on the other hand thinks that things are coming much more quickly. He's putting AGI on much closer to a two-year timeline, and honestly one gets the impression when watching these interviews, that he actually thinks it's even closer than that, and that the two-year timeline almost feels like him hedging to not sound insane.
+
+### Chip Sales to China: "Like Selling Nukes to North Korea"
+
+This I think is important context for some of the comments that got the most attention, which came when Amodei said that he believed that selling chips to China was akin to selling nukes to North Korea.
+
+Now, these comments came during a joint interview with Demis, during which of course the Trump administration's recent approval of NVIDIA's selling advanced chips to China was a major topic of conversation.
+
+Amodei argued that the administration was making, in his words, a major mistake that could have incredible national security implications.
+
+He said, "We are many years ahead of China in our ability to make chips, so I think it would be a big mistake to ship these chips. I think this is crazy. It's a bit like selling nuclear weapons to North Korea."
+
+Amodei continued, "The CEO of the Chinese companies say it's the embargo on chips that's holding us back. They explicitly say this. And at this point, it's basically the only area where we are meaningfully ahead."
+
+### Demis Hassabis on China
+
+While DeepMind CEO Hassabis doesn't share Amodei's dire concerns about China, he does think people need to update their mental framework about China's capabilities.
+
+He reiterated his notion that China is about six months behind the West, but he also reiterated the fact that he doesn't think that so far the Chinese labs have shown they're able to innovate past where the Western labs can do.
+
+He said, "They're very good at catching up to where the frontier is, and increasingly capable of that. But I think they've yet to show they can innovate beyond the frontier."
+
+### Would They Pause If Everyone Else Did?
+
+Now, interestingly, all of this brought up a question of how society should respond. And in fact, a couple of times, they were asked if they could, if they would pause and slow down.
+
+**Interviewer:** "Some folks have advocated for a pause to give regulation time to catch up, to give society time to adjust to some of these changes. In a perfect world, if you knew that every other company would pause, if every country would pause, would you advocate for that?"
+
+**Demis Hassabis:** "I think so. I mean, I've been on record saying what I'd like to see happen, and it was always my dream of the road map at least I had when I started out DeepMind 15 years ago and started working on AI 25 years ago now, was that as we got close to this moment, this threshold moment of AI arriving, we would maybe collaborate in a scientific way.
+
+I sometimes talk about setting up an international concern equivalent for AI, where all the best minds in the world would collaborate together to kind of figure out what we want from this technology and how to utilize it in a way that benefits all of humanity. And I think that's what's at stake.
+
+Unfortunately, it kind of needs international collaboration, though, because even if one company or even one nation or even the West decided to do that, it has no use unless the whole world agrees, at least on some kind of minimum standards."
+
+### Dario Amodei: Why We Can't Slow Down
+
+Now, if you're sitting there thinking to yourself, everything about what you just heard from the very framing of the question to the response itself is sort of irrelevant in a world where there's absolutely no way that you're going to get that sort of cooperation, I think Anthropic's Dario sounds like he would agree with you.
+
+**Dario Amodei:** "I prefer Demis's timeline. I wish we had five to ten years, you know, so it's possible he's just right and I'm just wrong, but assume I'm right and it can be done in one to two years. Why can't we slow down to Demis's timeline? Well, you can just say that.
+
+Well, no, but the reason we can't do that is because we have geopolitical adversaries building the same technology at a similar pace, it's very hard to have an enforceable agreement where they slow down and we slow down.
+
+And so if we can just not sell the chips, then this isn't a question of competition between US and China. This is a question of competition between me and Demis, which I'm very confident that we can work out.
+
+And maybe it would be good to have a bit of a slightly slower pace than we're currently predicting even my timelines so that we can get this right societally, but that would require some coordination that is for your timelines."
+
+### Response from the AI Pause Community
+
+Now, as you might imagine, the AI pause folks were out in force after this. Will Trosy retweeted one of these clips and said "four months after our hunger strike, Demis Hassabis finally agreed that he would pause if everyone else also paused. However, we can't have only one company say that. This requires international coordination."
+
+### NLW's Commentary on the Pause Debate
+
+To get up on my soapbox for a minute, it is not that I am unsympathetic to the folks who are concerned about the magnitude of social disruption that AI could represent.
+
+I tend to have a different sense than many of those folks about the way that things play out on many vectors, including the particular nature of job disruption, what I believe is their underestimation of humans' continued desire to interact with and have humans doing things for them and with them, and many other points as well.
+
+But I also believe that simple humility demands that we take this seriously, which is why I find it so frustrating, the amount of energy that's poured into the made-for-social-media positions like "Pause AI for six months," or "Data Center Moratorium," a policy which would so clearly do the exact opposite thing of what its lead advocate Bernie Sanders is actually asking for, which is ensuring the benefits of the technology work for everyone.
+
+The point is we live in the world that we live in, and in the same moment where the Commerce Secretary of the United States told the same Davos forum in no uncertain terms that globalization had failed, this is not the moment where there is either the political capital or the political will for some enforceable cross-border pause, which is not to say that there isn't a good conversation to be had about what society can do to not just sleepwalk into one of the most profound disruptions it's ever experienced.
+
+The one singular thing that connects the full spectrum of AI folks from the accelerationists to the safetists is their belief that the change that AI is bringing is immense. That singular common thread creates the opportunity to build unexpected coalitions to help support public awareness, discussions of policy response, and basically broadly help us adapt to the changes that are coming, but not if we spend all our time on sound-bite policies.
+
+### Social Disruption Concerns
+
+And indeed, this was another part of the discussion with Amodei and Hassabis. Dario reiterated his concern that we're going to see in his words a very unusual combination of very fast GDP growth and high unemployment and said there's going to need to be some role for governments in a displacement that's this macroeconomically large. Hassabis is more optimistic about our ability to adapt, but also believes that it will take an intentional adaptation.
+
+One of my greatest personal frustrations is time wasted on dumb conversations when we desperately need good ones, and I hope that the net effect of comments like these coming out of the World Economic Forum is a positive shift in the discourse. I am however not holding my breath.
+
+### Dario's Software Engineering Prediction Update
+
+Now one specific prediction to follow up on, it was actually at Davos last year that Dario started talking about how much of software engineering was going to be overtaken by AI on a very short one year type of timeline. People were extremely skeptical and although one could quibble about the exactness of Dario's timelines, recent history has certainly proved him to be more directionally correct than directionally wrong.
+
+In his latest update to that prediction, he is arguing that software engineering will be automatable in 12 months, predicting that AI models will be able to do in his words "most maybe all of what software engineers do end to end within six to 12 months."
+
+This is by the way part of why his timelines are faster than Demis's, building on our theme from a few days ago of code AGI as a stepping stone to full AGI. It's very clear that Dario believes that the point at which AI can do end-to-end what software engineers do now is where the recursive feedback loop where AI builds better AI begins.
+
+And while there will continue to be debates about this, this is an increasingly common point of view.
+
+Node.js creator Ryan Dahl recently went viral on Twitter when he posted, "This has been said a thousand times before but allow me to add my own voice. The era of humans writing code is over, disturbing for those of us who identify as software engineers but no less true. That's not to say software engineers don't have work to do but writing syntax directly is not it."
+
+### Summary from Andrew Curran
+
+I think overall trying to sum up, Andrew Curran does a great job:
+
+"After discussing the five and the two-year timeline prediction for AGI, Curran writes Dario said that if he had the option to slow things down he would because it would give us more time to absorb all the changes. He said that if Anthropic and DeepMind were the only two groups in the race he would meet with them right now and agree to slow down but there's no cooperation or coordination between all the different groups involved so no one can agree on anything.
+
+This in my opinion is the main reason he wanted to restrict GPU sales. Chip proliferation makes this kind of agreement impossible and if there is no agreement then he asks to blitz. This seems to be exactly what he has decided to do. After watching his interviews today I think Anthropic is going to lean into recursive self-improvement and go all out from here to the finish line."
+
+---
+
+## TRANSCRIPT END
+
+**Transcribed by:** Faster-Whisper (base model)
+**Transcription Date:** January 22, 2026
