@@ -1,0 +1,208 @@
+CNBC Squawk Pod - Dario Amodei Interview
+Date: January 22, 2026
+---TRANSCRIPT START---
+[0.00s]  Since the beginning, you know, Anthropic has thought in terms of safety and reliability
+[8.16s]  of AI systems.
+[9.64s]  Anthropic CEO Dario Amote from the World Economic Forum in Davos, Switzerland.
+[15.72s]  The future of his business as demand for AI keeps expanding.
+[20.96s]  We have consumer products, but they're not our major focus.
+[23.92s]  It's maybe 80-20 on the enterprise side.
+[26.64s]  And staying ahead of the curve as competition stays tight.
+[30.84s]  We don't have to do ads.
+[32.20s]  We don't have to focus on short-form video.
+[34.76s]  We don't have to focus on maximizing engagement.
+[38.00s]  Instead, we actually just focus on making our models as smart and as capable as possible.
+[43.00s]  Open AI's chat GPT, Google's Gemini, Meta's Lama, XAI's GROC, even deep-seek is a crowded
+[50.92s]  field.
+[51.96s]  Amote on the competitive edge of Anthropic's Claude.
+[57.00s]  I actually don't think some of these other models have enough incentive to get smarter.
+[61.88s]  Have enough incentive to become capable of more tasks across the board.
+[66.60s]  And we've been able to focus on that more.
+[68.64s]  I'm CMVC producer Cameron Costa.
+[71.36s]  Squag pod reports from Davos 2026.
+[74.96s]  Anthropic CEO Dario Amote begins right now.
+[81.92s]  Davos, Switzerland, snowy, chilly, and this time of year, also filled with leaders from
+[95.16s]  every field.
+[96.16s]  Banking, government, and duh, artificial intelligence.
+[99.96s]  Joe Kernen, Becky Quick and Andrew Ross-Sorkin spoke to many execs this week, including Open AI's
+[106.52s]  CFO Sarah Fryer.
+[108.60s]  You can catch that interview on your podcast feed if you scroll down.
+[112.84s]  They also spoke to another giant in the AI space.
+[116.84s]  Anthropic founder Dario Amote.
+[119.84s]  Anthropic's Claude model is up there with chat GPT and Gemini in terms of popularity.
+[125.84s]  But Amote says it has an edge.
+[128.72s]  Here's Andrew on our outdoor set in Davos.
+[133.32s]  And our next guest is on the front lines of the AI revolution.
+[136.04s]  Joining us right now is Anthropic's co-founder and CEO Dario Amote.
+[139.28s]  It's great to see you, sir.
+[140.80s]  Thanks for having me, Andrew.
+[141.80s]  So here we are.
+[142.80s]  You just came out with a new model last week.
+[144.44s]  A lot of people are buzzing about that here.
+[146.40s]  I think it would be very helpful for the audience to understand how you see what you're doing,
+[151.44s]  what the folks at Google are now doing, what Open AI is doing, what you think XAI is doing,
+[157.88s]  sort of what that actually even looks like anymore.
+[160.36s]  Because it does seem like everybody's trying now all of a sudden to differentiate in different
+[164.76s]  ways.
+[165.76s]  Right.
+[166.76s]  So I think we picked a path that's quite different from the other players.
+[170.56s]  Anthropic, since the beginning, Anthropic has thought in terms of safety and reliability
+[175.32s]  of AI systems.
+[176.68s]  And one of the things we realized is that that was very synergistic with working with
+[180.84s]  enterprises as compared to consumers.
+[183.40s]  Because enterprises really, they value the reliability, they value the trust, they value
+[187.44s]  the long-term relationship with customers.
+[190.60s]  And so we decided to pursue the enterprise business.
+[192.84s]  We have consumer products, but they're not our major focus.
+[197.36s]  It's maybe 80-20 on the enterprise side.
+[201.88s]  And so that really allows us to proceed in a different way.
+[205.76s]  We don't have to do ads, we don't have to focus on short-form video, we don't have to focus
+[210.48s]  on maximizing engagement.
+[212.80s]  Instead, we actually just focus on making our models as smart and as capable as possible.
+[218.04s]  Because that's what enterprises are looking for.
+[219.52s]  They're looking for capability, they're looking for intelligence, they're looking for optimizing
+[224.00s]  complex business processes across things like finance, coding, pharmaceutical companies,
+[230.60s]  manufacturing, energy, all the things that drive the economy.
+[234.00s]  So we think of the work we do as most directly connected to directly driving GDP and not all
+[240.76s]  this kind of indirect or complex stuff like maximizing engagement.
+[245.28s]  But is the complex stuff video and images and all of that?
+[249.32s]  And ultimately do you think that those models will be able to do what your models do?
+[253.28s]  So I actually think there's a divergence where if you're optimizing for consumers, you're
+[261.08s]  trying to be as engaging as possible, you're trying to be as entertaining as possible, I actually
+[266.00s]  don't think some of these other models have enough incentive to get smarter, have enough
+[270.76s]  incentive to become capable of more tasks across the board, and we've been able to focus
+[276.00s]  on that more.
+[277.20s]  That probably responds to some, it's probably music to the ears of some investors.
+[283.12s]  We've spoken with investors, Sachin Nadella was just talking about this at Microsoft.
+[288.12s]  His point is that if we don't see a broadening of more than just the big tech companies using
+[294.92s]  this AI, if we don't see a broadening of just the wealthiest nations using it, then
+[299.28s]  it is indeed a bubble, there's too much infrastructure that's being built up, but maybe that speaks
+[303.84s]  to who's going to pay for it and who's not.
+[306.36s]  Well, I think across the board, we're both trying to grow our revenue as fast as possible,
+[310.96s]  our revenue grew in 2023, 0 to 100 million, 2024, 100 million to 1 billion, and 2025,
+[318.72s]  1 billion to almost 10 billion.
+[320.48s]  So if we can keep that curve going, or even anywhere close to it, then the investments
+[328.12s]  will be justified, but I think you bring up another point that's also relevant, which
+[331.92s]  is we need to make sure that kind of the technology diffuses in everyone's shares and the benefits.
+[337.32s]  The startups at Silicon Valley adopt this technology almost immediately.
+[341.76s]  I think it's a little harder to get into the large enterprises, although we're spending
+[345.08s]  an increasing amount of time on go-to-market work, to try and drive that enterprise transformation
+[350.16s]  and get enterprises to adopt it as quickly as possible.
+[353.12s]  But then there's all kinds of countries in the world, so diffusing this technology across
+[358.32s]  not just the developed, but the developing world.
+[361.08s]  I think that's going to be very important, and we're starting to do work with folks like
+[365.44s]  the Gates Foundation.
+[366.44s]  Can you just estimate 10-year revenue growth?
+[370.08s]  You know, it's very hard to say.
+[373.12s]  Can I ask you?
+[374.12s]  Anything I say is going to sound totally crazy, but if you look at what AI is capable of,
+[381.00s]  if you have these models that are getting more and more capable across the wide range
+[384.80s]  of cognitive tasks, you look at all labor in the economy.
+[389.64s]  That's something like $50 trillion a year.
+[392.64s]  I could easily imagine that the revenue of the industry or even single companies, if
+[396.56s]  it's even 10% of that, could be $5 trillion a year.
+[399.76s]  Now, that's something we haven't seen in the history of the world.
+[402.44s]  That creates all kinds of problems, as well as creating all kinds of growth.
+[406.60s]  When you think about the growth, and there's obviously an expectation that you'll go public
+[410.80s]  as potentially open AI and others do as well, how much more capital are you going to
+[416.20s]  need to raise between now and whatever that moment is?
+[420.92s]  Because there's the technology piece on one end, and then there's the capital raising
+[424.60s]  piece.
+[425.60s]  I don't know if you ever got into this thinking you were going to be a capital raise
+[427.76s]  or all day long.
+[428.76s]  Not really.
+[429.76s]  No.
+[430.76s]  So, the way I thought about it, we talked about it when we spoke at Dealbook, is there's
+[436.56s]  this kind of difficult problem, this cone of uncertainty, which is the revenue is growing
+[440.40s]  very fast.
+[441.52s]  You don't know exactly how fast, because the rate of enterprise diffusion is unknown.
+[447.88s]  But you don't know whether your revenue next year is going to be 10 billion now, is
+[452.16s]  going to be 20 billion or is it going to be 100 billion next year.
+[455.60s]  You don't know.
+[456.60s]  You don't know anywhere between it, and yet you have to buy the data centers.
+[459.40s]  So, what do you do?
+[460.40s]  60 to 80%.
+[461.40s]  Well, for Kenya, starting in 2024 to 2028, 130 to 150.
+[466.56s]  Which model is telling you that?
+[467.56s]  This is chat GPT.
+[468.56s]  Oh, don't tell him that.
+[471.92s]  I thought they'd lowball it.
+[473.92s]  I don't know.
+[474.92s]  I mean, what do you do when the cone of uncertainty is that?
+[477.80s]  Yeah, so there are a few things that are your buffer.
+[481.08s]  The first thing that's your buffer is, the higher your margins are, the more, you know,
+[487.04s]  the more a fair way you have between the amount you have to buy and the amount of revenue
+[491.88s]  you have to support.
+[492.88s]  So, one of the fortunate things about being in the enterprise business is that we have relatively
+[497.20s]  higher margins, and enterprise spending is relatively predictable in comparison to consumer
+[502.16s]  spending, which is very fickle, right?
+[503.64s]  I see Google and OpenAI fighting it out over consumer spending.
+[507.68s]  We have more stability than enterprise.
+[509.76s]  The other thing, of course, is, you know, while you're growing that revenue is, of course,
+[513.56s]  is, of course, raising money.
+[514.68s]  And so, you know, we do that periodically, you know, we raise, we raise very large amounts
+[518.64s]  of money, and I would expect those to continue to increase.
+[521.88s]  But that as time goes on, our revenue will continue to increase fast, and we'll justify
+[526.36s]  that.
+[527.36s]  What is the, the mode around the business?
+[529.40s]  And the reason I ask is, I always thought persistent memory, we've talked about this, could
+[532.80s]  be the mode.
+[533.80s]  In your case, it might be the data sets that you're connecting into and the cost of, of
+[538.20s]  changing out anthropic for, for another model.
+[540.84s]  But by the way, I did this last week, I don't even think I told you this.
+[543.96s]  You can go in, and this is on the consumer end, you can ask chat GPT, for example, to
+[549.88s]  effectively output everything it knows about you so that it can be imported into another
+[554.76s]  model.
+[555.76s]  In this case, actually, there is no votes around the business, because you could port yourself
+[560.96s]  from place to place, and by the way, philosophically, maybe that's great, since it's my information.
+[564.92s]  But on the other end, I think to myself, well, what does that do to the business, if your
+[568.52s]  model gets better than the other one, and then they go back and forth, and then everyone
+[572.36s]  keeps flip-flopping?
+[574.04s]  So, again, I think that's talking on the consumer side.
+[577.64s]  On the, on the enterprise side, I think there's a few modes.
+[581.08s]  One is, again, as I said, enterprise really, really values model intelligence, right?
+[586.20s]  Being better at coding, being better at understanding finance, being better at biological discovery.
+[591.80s]  So we simply try to have the smartest model, and there are maybe only three or four companies
+[597.04s]  that are plausible for having the smartest model.
+[599.12s]  So you're already talking about a relatively small group.
+[601.84s]  The second thing is within that group, model specialized in different things.
+[606.16s]  And then,thropics models are widely known to be, widely considered to be the best models
+[611.78s]  for coding.
+[612.78s]  And so, within the coding market, we have a mode within that area, and we're trying
+[616.84s]  to build modes within other areas.
+[619.08s]  We recently released this cloud co-work thing that tries to go beyond coding to general
+[623.84s]  agentic tasks.
+[624.84s]  And then, I think the third thing is the thing you mentioned, which is that enterprise relationships
+[629.20s]  are formed slowly over a lot of time, and then are difficult to disrupt.
+[634.44s]  We talked about the slow speed of economic diffusion and the need to do enterprise transformation,
+[640.88s]  to get companies with tens of thousands of employees to actually adopt the technology.
+[645.64s]  But the flip side of that is if they manage to go through that slow process with one company,
+[650.24s]  it is again slow to try to do that with another company.
+[653.12s]  So I think those are the basis of the models.
+[655.64s]  We got to go, but just one final question.
+[657.60s]  Does all the hand-ringing and splintering of our globe impact your business at all?
+[664.36s]  As you're talking to people trying to sell into different countries, is that shifting
+[667.96s]  the discussion?
+[668.96s]  No, I think we're thought of as kind of an independent actor, and we just have models
+[675.68s]  to sell.
+[676.68s]  We're willing to sell them to businesses across the world.
+[680.36s]  When policy matters come up, we do speak on them, and sometimes we agree with the administration.
+[685.28s]  Sometimes we disagree, but we try to be very technocratic in the way that we address
+[689.60s]  these things.
+[690.60s]  Derek, I want to thank you for coming in.
+[691.60s]  It's great to see you.
+[692.60s]  Thanks Andrew.
+[693.60s]  Thank you.
+[694.60s]  Great to see you.
+[696.60s]  Thank you for listening to this special SquawkPod reports from Davos.
+[709.44s]  I encourage you to stay a while.
+[712.28s]  Cook around.
+[713.28s]  Squawk's biggest interviews from the World Economic Forum this year live on this very
+[718.12s]  feed, and they'll keep coming tomorrow and even over the weekend.
+[722.12s]  Joe's full interview with President Trump, Becky's full interview with Amazon CEO Andy
+[727.56s]  Jazzy, Andrew's interview with Bill Gates, and so much more.
+[732.12s]  Just hit that follow button, and you can catch each one every time we post.
+[736.96s]  SquawkBox is hosted by Joe Kernen, Becky Quick, and Andrew Ross Sorkin.
+[742.36s]  SquawkPod is produced by me, Cameron Costa, and Zach Valisi.
+[746.60s]  Katie Kramer is in Davos and Julie Trass, our editor, is here state side.
+[752.48s]  Have a great day.
