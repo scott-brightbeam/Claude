@@ -1,0 +1,794 @@
+Detected language: en (probability: 1.00)
+---TRANSCRIPT START---
+[0.00s - 6.08s]  Google DeepMind CEO, Demesis Abyss, joins us to talk about the path from here to AGI.
+[6.08s - 10.68s]  When Google's AI glasses are coming, and whether the paste of AI progress can keep up at
+[10.68s - 13.68s]  this rate, that's coming up right after this.
+[13.68s - 18.76s]  Welcome to a special edition of Big Technology Podcast from Davos, I'm Alex Cantruz, and
+[18.76s - 23.72s]  I'm joined today by a special guest, Demesis Abyss, the CEO of Google DeepMind, Demesis.
+[23.72s - 25.72s]  Welcome back to the show.
+[25.72s - 30.64s]  Here go, there were real questions about whether AI progress was tailing off.
+[30.64s - 35.56s]  It was in fashion to ask whether LLMs were going to hit a wall.
+[35.56s - 37.64s]  And those questions seem like they've been settled.
+[37.64s - 41.16s]  There's been a tremendous amount of progress over the past year.
+[41.16s - 46.52s]  Can you tell us what specifically has happened that's gotten the AI industry from that moment
+[46.52s - 49.64s]  of question last year to the point that it is today?
+[49.64s - 54.92s]  Well, for us internally, we were never questioning that, just to be clear, I think we've always
+[54.92s - 58.68s]  been seeing great improvements.
+[58.68s - 62.96s]  So we were a bit puzzled by why there was this question in the air.
+[62.96s - 67.44s]  I mean, some of it was to do, we were all worried about data running out.
+[67.44s - 71.56s]  And there is some truth in that is all the data had been used.
+[71.56s - 74.96s]  Can we create synthetic data that's going to be useful to learn from?
+[74.96s - 80.28s]  But actually, it turns out you can ring more juice out of the existing architectures
+[80.28s - 81.28s]  and data.
+[81.28s - 85.08s]  There was plenty of room, I think, and we're still seeing that in both the pre-training,
+[85.08s - 91.08s]  the post-training and the thinking paradigms and also the way that they all kind of fit together.
+[91.08s - 95.08s]  So I think there's still plenty of headroom there, just with the techniques we already know
+[95.08s - 99.28s]  about and tweaking and innovating on top of that.
+[99.28s - 101.28s]  All right, here's what a skeptic would say.
+[101.28s - 106.16s]  That there have been a lot of tricks that have been put on top of LLMs.
+[106.20s - 113.04s]  I hear often about scaffolding and orchestration and AI that can use a tool to search the web,
+[113.04s - 114.40s]  but it won't remember what it learns.
+[114.40s - 118.08s]  As soon as you close that session, it forgets.
+[118.08s - 122.52s]  Is that just a limitation of the large language model paradigm?
+[122.52s - 126.28s]  Well, look, I think there is, and I'm definitely a subscriber to the idea
+[126.28s - 130.24s]  that maybe we need one or two more big breakthroughs before we'll get to AGI.
+[130.24s - 133.40s]  And I think there are along the lines of things like continual learning,
+[133.40s - 137.88s]  better memory, longer context windows, or perhaps more efficient context windows,
+[137.88s - 141.84s]  would be the right way to say it, so don't store everything, just store the important things.
+[141.84s - 144.48s]  That would be a lot more efficient, that's what the brain does.
+[144.48s - 146.76s]  And better long-term reasoning and planning.
+[146.76s - 151.84s]  Now, it remains to be seen whether just sort of scaling up existing ideas and technologies
+[151.84s - 158.48s]  will be enough to do that, or we need one or two more really big insightful innovations.
+[158.48s - 161.76s]  I'm probably, if you were to push me, I would be in the latter camp,
+[161.76s - 167.68s]  but I think, no matter what camp you're in, we're going to need large foundation models
+[167.68s - 172.36s]  as the key component of the final AGI systems, of that I'm sure.
+[172.36s - 176.08s]  So I'm not a subscriber to someone like Jan LeCoon who thinks, you know,
+[176.08s - 178.24s]  that gets sort of a some kind of dead end.
+[178.24s - 184.36s]  I think the only debate in my mind is, are they a key component or the only component?
+[184.36s - 187.16s]  So I think it's between those two options.
+[187.16s - 189.76s]  And for me, this is one advantage.
+[189.76s - 194.56s]  As we have having such a deep and rich research bench, we can go after both of those things
+[194.56s - 201.48s]  at maximum with maximum force, both scaling up the current paradigms and ideas.
+[201.48s - 205.16s]  And when I say scaling up, that also involves innovation, by the way.
+[205.16s - 208.04s]  Pre-training, especially, I think we're very strong on.
+[208.04s - 212.68s]  And then really new blue sky ideas for new architectures and things,
+[212.68s - 216.16s]  you know, the kinds of things we've invented over the last 10 years as Google and DeepMind,
+[216.16s - 218.64s]  you know, of course, including transformers.
+[218.64s - 224.28s]  Can something with a lot of hard-coded stuff ever be considered AGI?
+[224.28s - 227.88s]  No, I think, well, depends what you mean by a lot.
+[227.88s - 230.76s]  I think that I'm very interested in hybrid systems,
+[230.76s - 234.00s]  is what I would call them, or neurosymbolic, sometimes people could call them.
+[234.00s - 237.08s]  You know, alpha-fold, alpha-go are examples of that.
+[237.08s - 242.40s]  So some of our most important work combines neural networks and deep learning
+[242.40s - 244.40s]  with things like Monte Carlo research.
+[244.40s - 246.76s]  So I think that could be possible.
+[246.76s - 250.24s]  And there's some very interesting work we're doing using the LLMs
+[250.24s - 254.44s]  with things like evolutionary methods, alpha- evolve,
+[254.44s - 258.00s]  to actually go and discover new knowledge.
+[258.00s - 260.72s]  You may need something beyond what the existing methods do.
+[260.72s - 265.48s]  But I think learning is a critical part of AGI.
+[265.48s - 267.76s]  It's actually almost a defining feature.
+[267.76s - 270.64s]  When we say general, we mean general learning.
+[270.64s - 275.64s]  Can it learn new knowledge and can it learn across any domain?
+[275.64s - 276.84s]  That's the general part.
+[276.84s - 280.60s]  So for me, learning is synonymous with intelligence and always has been.
+[280.60s - 284.08s]  OK, so if learning is synonymous with intelligence,
+[284.08s - 288.60s]  and these models still don't have the ability to continually learn,
+[288.60s - 290.88s]  like I said earlier, it has goldfish brain.
+[290.88s - 293.96s]  It can search the internet, and it can be like, I figured this out.
+[293.96s - 295.24s]  But it doesn't change the model.
+[295.24s - 298.32s]  It's just forget it after the session.
+[298.32s - 303.76s]  Do you have a theory as to how the continual learning problem can be solved?
+[303.76s - 305.88s]  And do you want to share it with us all?
+[305.88s - 306.88s]  I can give you some clues.
+[306.88s - 309.28s]  We are working very hard on it.
+[309.28s - 312.68s]  We've done some work on, I think the best work on this in the past
+[312.68s - 317.60s]  with things like alpha-0, that learn from scratch, versions of alpha-go,
+[317.60s - 321.84s]  alpha-go-0 also learned on top of the knowledge it already had.
+[321.84s - 325.24s]  So we've done it in much narrower domains.
+[325.24s - 327.84s]  Games are obviously a lot easier than the messy real world.
+[327.84s - 330.48s]  So it remains to be seen if those kinds of techniques
+[330.48s - 335.92s]  will really scale and generalize to the real world and actual real world problems.
+[335.92s - 340.48s]  But at least the methods we know can do some pretty impressive things.
+[340.48s - 342.60s]  And so now the question is, can we blend that,
+[342.60s - 347.04s]  at least in my mind, with these big foundation models?
+[347.04s - 350.04s]  And so of course, the foundation models are learning during training,
+[350.04s - 353.08s]  but we would love them to learn out in the world.
+[353.08s - 355.40s]  And including things like personalization,
+[355.40s - 358.24s]  I think that's going to happen, and I feel like that's a critical part
+[358.24s - 363.08s]  of building a great assistant is that it understands you,
+[363.08s - 365.92s]  and it works for you as a technology that works for you.
+[365.92s - 368.20s]  And we've released our first versions of that just last week.
+[368.20s - 371.68s]  Personal intelligence is the sort of first baby steps towards that.
+[371.68s - 375.76s]  But I think to have it, you want to do it more than just having your data
+[375.76s - 377.00s]  in the context window.
+[377.00s - 379.08s]  That's, you want to have something a bit deeper than that,
+[379.08s - 382.00s]  which is, as you say, actually changes the model over time.
+[382.00s - 383.84s]  That's what ideally you would have.
+[383.84s - 386.40s]  And that technique has not been cracked here.
+[386.40s - 388.96s]  We've brought up AGI a couple times.
+[388.96s - 392.92s]  So let me put this to you, because I was speaking with Sam Altman
+[392.92s - 394.20s]  towards the end of the year.
+[394.20s - 397.20s]  And I asked him, I was like, you seem to be saying two things.
+[397.20s - 401.80s]  We're not at AGI yet, but every time he talks about what GPT models can do,
+[401.80s - 403.76s]  it seems like it fits his definition.
+[403.76s - 408.60s]  And he said that AGI is underdefined.
+[408.60s - 411.80s]  And what he wishes everybody could agree to was that we've sort of
+[411.80s - 415.64s]  moved by AGI and we move towards super intelligence.
+[415.64s - 416.48s]  Do you agree with that?
+[416.48s - 417.64s]  I'm sure he does wish that.
+[417.64s - 420.00s]  But it's, no, absolutely not.
+[420.00s - 423.84s]  I don't think AGI should be sort of turned into a marketing term
+[423.84s - 425.52s]  or for commercial gain.
+[425.52s - 428.80s]  I think there is always been a scientific definition of that.
+[428.80s - 432.68s]  My definition of that is a system that can exhibit
+[432.68s - 434.96s]  all the cognitive capabilities humans can.
+[434.96s - 436.08s]  And I mean all.
+[436.08s - 441.36s]  So that means the highest levels of human creativity
+[441.36s - 444.56s]  that we always celebrate, the scientists and the artists that we admire.
+[444.56s - 448.36s]  So it means not just solving a math equation or a conjecture
+[448.36s - 451.52s]  but coming up with a breakthrough conjecture.
+[451.52s - 452.80s]  That's much harder.
+[452.80s - 456.56s]  Not solving something in physics or some bit of chemistry, some problem,
+[456.56s - 458.52s]  even like alpha folds, protein folding,
+[458.52s - 461.28s]  but actually coming up with a new theory of physics,
+[461.28s - 465.20s]  something like Einstein did with general relativity.
+[465.20s - 467.00s]  Can a system come up with that?
+[467.00s - 468.56s]  Because of course, we can do that.
+[468.56s - 472.56s]  The smartest humans with our human brain architectures
+[472.56s - 474.92s]  have been able to do that in history.
+[474.92s - 479.36s]  And the same on the art side, not just create a pastiche of what's known,
+[479.36s - 483.88s]  but actually be Picasso or Mozart and create a completely new genre
+[483.88s - 486.20s]  of art that we'd never seen before.
+[486.20s - 489.20s]  And today's systems, in my opinion, are nowhere near
+[489.20s - 491.68s]  that doesn't matter how many, you know,
+[491.68s - 494.08s]  earnest problems you solve, which for some reason,
+[494.08s - 496.72s]  you know, I mean, you know, it's good that we're doing those things.
+[496.72s - 500.52s]  But I think it's far, far from what, you know, true invention
+[500.52s - 503.16s]  or someone like a Ramanujan would have been able to do.
+[503.16s - 506.16s]  And you need to have a system that can potentially do that
+[506.16s - 507.68s]  across all these domains.
+[507.68s - 510.48s]  And then on top of that, I had added in physical intelligence,
+[510.48s - 512.56s]  because of course, you know, we can play sports
+[512.56s - 515.04s]  and control our bodies and to amazing levels,
+[515.04s - 517.48s]  the elite sports people that are walking around, you know,
+[517.48s - 518.76s]  here today in Davos.
+[518.76s - 523.68s]  And we're still way off of that on robotics as another example.
+[523.68s - 526.92s]  So I think an AGI system would have to be able to do all of those things
+[526.92s - 531.84s]  to really fulfill the original sort of goal of the AI field.
+[531.84s - 534.40s]  And I think, you know, we're five to 10 years away from that.
+[534.40s - 537.12s]  I think the argument would be that if something can do all those things,
+[537.12s - 539.04s]  it would be considered superintelligence,
+[539.04s - 540.68s]  but you think AGI is a good time.
+[540.68s - 541.52s]  No, of course not.
+[541.52s - 543.76s]  Because those individual humans could,
+[543.76s - 545.36s]  we can come up with new theories,
+[545.36s - 548.40s]  Einstein, Deidre, Feynman, all the greats
+[548.40s - 550.84s]  that more my scientific heroes, they were able to do that.
+[550.84s - 552.64s]  It's rare, but it's possible
+[552.64s - 554.36s]  with the human brain architecture.
+[554.36s - 557.60s]  So superintelligence is another concept that's worth talking about,
+[557.60s - 561.72s]  but that would be things that can really go beyond what human intelligence can do.
+[561.72s - 564.00s]  We can't think in 14 dimensions
+[564.00s - 568.36s]  or, you know, plug in whether satellites into our brains, not yet anyway.
+[568.36s - 573.28s]  But, and so that, those are truly beyond human or superhuman.
+[573.28s - 576.16s]  And that, you know, that's a whole nother debate to have,
+[576.16s - 578.04s]  but once we get to AGI.
+[578.04s - 579.32s]  I was listening to you recently
+[579.32s - 581.64s]  and something you said really surprised me.
+[581.64s - 585.32s]  You were asked on the Google Deep Mind Podcast, which is great.
+[585.32s - 590.52s]  Listen, if you have a system today that is close to AGI,
+[590.52s - 592.92s]  I thought it might be Gemini 3.
+[592.92s - 594.72s]  You named Nano Banana.
+[594.72s - 595.24s]  Yes.
+[595.24s - 596.08s]  The image generator.
+[596.08s - 596.76s]  Yes.
+[596.76s - 598.44s]  What?
+[598.44s - 600.36s]  Well, you know, sometimes you have to have these fun names
+[600.36s - 601.40s]  and have fun with those.
+[601.40s - 604.80s]  And, you know, how is an image generator close to AGI?
+[604.80s - 605.76s]  Oh, well, of course.
+[605.76s - 608.64s]  Look, let's take image generators, but also,
+[608.64s - 610.20s]  let's talk about our video generator,
+[610.92s - 612.92s]  which is the state of the art in video generation.
+[612.92s - 614.32s]  And I think that's even more interesting
+[614.32s - 616.04s]  in from an AGI perspective.
+[616.04s - 617.80s]  You know, you can think of a video model
+[617.80s - 622.08s]  that can generate you 10 seconds, 20 seconds of a realistic scene.
+[622.08s - 624.72s]  It's sort of a model of the physical world.
+[624.72s - 627.72s]  Intuitive physics would sometimes call it in physics land.
+[627.72s - 629.96s]  And it's sort of intuitively understood
+[629.96s - 635.44s]  how liquids and objects behave in the world.
+[635.44s - 638.88s]  And that's obviously one way to exhibit understanding
+[638.88s - 642.76s]  is to be able to generate it, at least to the human eye,
+[642.76s - 645.68s]  being accurate enough to be satisfying to the human eye.
+[645.68s - 647.28s]  Obviously, it's not completely accurate
+[647.28s - 648.28s]  from a physics point of view.
+[648.28s - 650.00s]  And we're getting, we're going to improve that.
+[650.00s - 653.68s]  But it's steps towards having this idea
+[653.68s - 656.60s]  of a world model, a system that can understand the world
+[656.60s - 659.00s]  and the mechanics and the causality of the world.
+[659.00s - 660.64s]  And of course, that would be, I think,
+[660.64s - 663.48s]  essential for AGI, because that would allow
+[663.48s - 667.56s]  the systems to plan, long-term plan in the real world.
+[667.56s - 670.04s]  Over, perhaps, very long-time horizons,
+[670.04s - 672.52s]  which of course we as humans can do, you know.
+[672.52s - 674.12s]  I'll spend four years getting a degree
+[674.12s - 675.52s]  so that I have more qualifications
+[675.52s - 677.20s]  so that in 10 years I'll have a better job.
+[677.20s - 678.88s]  You know, these are very long-term plans
+[678.88s - 681.48s]  that we all do quite effortlessly.
+[681.48s - 684.40s]  And at the moment, without these systems,
+[684.40s - 685.44s]  we still don't know how to do.
+[685.44s - 688.40s]  We can do short-term plans over one-time scale.
+[688.40s - 690.76s]  But I think you need these kind of world models.
+[690.76s - 692.76s]  And I think you can imagine robotics,
+[692.76s - 694.84s]  that's exactly what you want for robotics,
+[694.84s - 696.72s]  is robots planning in the real world,
+[696.72s - 698.56s]  being able to imagine many trajectories
+[698.56s - 700.72s]  from the current situation they're in
+[700.72s - 703.04s]  in order to complete some task.
+[703.04s - 704.60s]  That's exactly what you'd want.
+[704.60s - 706.88s]  And then finally, from our point of view,
+[706.88s - 708.68s]  and why this is why we work with Gemini
+[708.68s - 710.28s]  as being multimodal from the beginning,
+[710.28s - 712.68s]  able to deal with video image
+[712.68s - 715.00s]  and eventually converge that all into one model.
+[715.00s - 717.88s]  That's our plan, is that it'll be very useful
+[717.88s - 720.92s]  for a universal assistant as well.
+[720.92s - 722.80s]  So let's talk product a little bit.
+[722.80s - 725.16s]  I watched the documentary The Thinking Game,
+[725.16s - 728.64s]  along with 300 million other people.
+[728.64s - 731.40s]  There was something kind of interesting that happened there.
+[731.40s - 734.64s]  Throughout the documentary yourself and some colleagues
+[734.64s - 736.36s]  kept pointing your phone at things
+[736.36s - 739.84s]  and asking an assistant alpha what was going on.
+[739.84s - 743.24s]  And I was yelling at the computer as I usually do
+[743.24s - 744.96s]  and said, this guy needs glasses.
+[744.96s - 747.12s]  He needs smart glasses to be able to do it.
+[747.12s - 749.68s]  The phone is the wrong form factor.
+[749.68s - 752.12s]  What is your vision for AI glasses
+[752.12s - 754.32s]  and when is the rollout happen?
+[755.04s - 756.04s]  I think you're exactly right.
+[756.04s - 757.48s]  And that was our conclusion.
+[757.48s - 760.00s]  It's very obvious when you sort of dog food these things
+[760.00s - 762.72s]  and internally that as you saw from the film,
+[762.72s - 766.92s]  we were holding up your phone to get it
+[766.92s - 768.28s]  to tell you about the real world.
+[768.28s - 773.20s]  And it's amazing it works, but it's clearly not
+[773.20s - 775.80s]  the right form factor for a lot of things you want to do.
+[775.80s - 778.36s]  Cooking or you're roaming around a city
+[778.36s - 781.64s]  and asking for directions or recommendations
+[781.64s - 784.24s]  or even helping the partially sighted
+[784.24s - 787.92s]  there's a huge use case there to help
+[787.92s - 790.44s]  with those types of situations.
+[790.44s - 793.44s]  And for that, I think you need something that's hands free.
+[793.44s - 795.64s]  And the obvious thing is for those of us anyway
+[795.64s - 798.92s]  that wear glasses like me is to put it on glasses.
+[798.92s - 800.80s]  But there may well be other devices too.
+[800.80s - 803.44s]  I'm not sure that glasses is the final form factor
+[803.44s - 805.80s]  but it's definitely, it's obviously a clear
+[805.80s - 807.16s]  next form factor.
+[807.16s - 809.16s]  And of course at Google and an alphabet,
+[809.16s - 810.76s]  we have a long history of glasses
+[810.76s - 814.08s]  and maybe we were a bit too early in the past.
+[814.08s - 816.28s]  But I think the my analysis of it
+[816.28s - 817.88s]  and talking to the people working on that project
+[817.88s - 820.12s]  was a couple of things that the form factor
+[820.12s - 822.56s]  was a bit too chunky and clunky in the battery life
+[822.56s - 825.84s]  and these kind of things which are now more or less solved.
+[825.84s - 828.48s]  But I think the thing it was missing was a killer app.
+[828.48s - 832.56s]  And I think the killer app is universal digital assistant
+[832.56s - 835.52s]  that's with you helping you in your everyday life
+[835.52s - 838.44s]  and they're available to you on any surface,
+[838.44s - 841.20s]  on your computer, on your browser, on your phone
+[841.20s - 843.76s]  but also on devices like glasses
+[843.76s - 847.08s]  when you're walking around the city.
+[847.08s - 850.28s]  And I think it needs to be kind of seamless
+[850.28s - 853.52s]  and kind of knows each of those contexts
+[853.52s - 855.92s]  and understands each of those contexts around you.
+[855.92s - 859.20s]  And I think we're close now, especially with Gemini 3,
+[859.20s - 863.00s]  I feel we finally got AI that is maybe powerful enough
+[863.00s - 864.72s]  to make that a reality.
+[864.72s - 866.88s]  And it's one of the most exciting projects
+[866.88s - 867.88s]  we're working on I would say
+[867.88s - 869.44s]  and it's one of the things I'm personally working on
+[869.44s - 872.80s]  is making smart glasses really work.
+[872.80s - 876.28s]  And we hope to, we've done some great partnerships
+[876.28s - 879.24s]  with Warby Parker and Gentle Monster and Samsung
+[879.24s - 881.80s]  to build these next generation glasses
+[881.80s - 885.96s]  and you should start seeing that maybe by the summer.
+[885.96s - 888.20s]  Yeah, Warby Parker did have a filing that said
+[888.20s - 891.68s]  that these glasses are coming out pretty soon this year.
+[891.68s - 893.44s]  Yeah, and the prototype design,
+[893.44s - 895.40s]  it depends how we're in prototype phase,
+[895.40s - 897.84s]  it depends how quickly that advances
+[897.84s - 899.92s]  but I think it's gonna happen very soon
+[899.92s - 902.84s]  and I think it will be a new category
+[902.84s - 904.80s]  defining technology.
+[904.80s - 905.96s]  Given your personal involvement,
+[905.96s - 908.64s]  is it safe to say that this is a pretty important initiative?
+[908.64s - 910.68s]  Yeah, it's one, well, yes, but I mean,
+[910.68s - 914.32s]  I like to, it's not just as important,
+[914.32s - 916.12s]  obviously I like spending my own time on important things
+[916.12s - 918.88s]  but I like to be at the most cutting edge thing
+[918.88s - 922.16s]  and that's often the hardest thing
+[922.16s - 923.84s]  and picking into him goals
+[923.84s - 925.60s]  and giving confidence to the team
+[925.60s - 928.92s]  and also just sort of understanding if the timing's right.
+[928.92s - 930.36s]  And over the years I've been doing this
+[930.36s - 932.40s]  the many, you know, the decades now,
+[932.40s - 933.76s]  you know, I've got quite good at doing that.
+[933.76s - 938.56s]  So I try to be at the most cutting edge parts of,
+[938.56s - 940.12s]  I feel like I can make the most difference there.
+[940.12s - 942.08s]  So things like glasses, robotics,
+[942.08s - 944.36s]  I'm spending time on and world models.
+[944.36s - 946.68s]  Right, okay, so timing's right for glasses.
+[947.68s - 948.76s]  Let's talk about ads.
+[948.76s - 951.24s]  Sure, it's the timing right for ads.
+[952.28s - 953.12s]  Well, let me set it up.
+[953.12s - 954.68s]  Yes, okay.
+[954.68s - 958.00s]  There's been some news that Gem and I might include ads.
+[958.04s - 960.04s]  There's been some news that some of your competitors
+[960.04s - 961.16s]  might include ads.
+[962.28s - 964.92s]  The funniest thing I saw about that on social media
+[964.92s - 969.80s]  was someone who said these people are nowhere close to AGI.
+[969.80s - 973.12s]  It's not gonna be this world disrupting technology
+[973.12s - 975.72s]  if the business model is advertising.
+[975.72s - 977.36s]  Yeah, well, it's interesting.
+[977.36s - 979.20s]  I think those are tells on, you know,
+[979.20s - 980.92s]  I think action speaks louder than words
+[980.92s - 982.52s]  going back to the original conversation
+[982.52s - 983.76s]  we were having with, you know,
+[983.76s - 986.88s]  Sam and others claiming AGI's around the corner.
+[986.88s - 988.40s]  Why would you bother with ads then?
+[988.40s - 990.96s]  So that is, I think, a reasonable question to ask.
+[992.16s - 995.20s]  But I think, look, from our point of view,
+[995.20s - 998.40s]  we have no plans at the moment to do ads
+[998.40s - 1001.96s]  if you're talking about the Gem and I app, right, specifically.
+[1001.96s - 1004.64s]  I think we are going, obviously,
+[1004.64s - 1007.40s]  we're going to watch very carefully what, you know,
+[1007.40s - 1011.44s]  the outcome of what Chatruppity is saying they're going to do.
+[1011.44s - 1013.12s]  I think it has to be handled very carefully
+[1013.12s - 1015.92s]  because the dichotomy I see is that,
+[1017.84s - 1021.28s]  if you want an assistant that works for you,
+[1021.28s - 1024.12s]  what is the most important thing? Trust.
+[1024.12s - 1027.24s]  Okay, so trust and security and privacy
+[1027.24s - 1029.16s]  because you want to share potentially your life
+[1029.16s - 1031.48s]  with that assistant then you want to be confident
+[1031.48s - 1034.96s]  that it's working on your, you know, behalf
+[1034.96s - 1038.28s]  and with your best interests.
+[1038.28s - 1040.00s]  And so, you know, you've got to be careful.
+[1040.00s - 1041.72s]  I think there are ways one could do it
+[1041.72s - 1043.44s]  but you'll be careful that it doesn't,
+[1043.44s - 1045.60s]  the advertising model doesn't bleed into that
+[1045.60s - 1049.00s]  and confuse the user as to what, you know,
+[1049.00s - 1051.04s]  what is this assistant recommending you?
+[1051.04s - 1053.12s]  And I think, you know, that's going to be
+[1053.12s - 1054.84s]  an interesting challenge in that space.
+[1054.84s - 1056.16s]  And that's what's not to do.
+[1056.16s - 1058.24s]  And Sue Duh in a recent earnings call said,
+[1058.24s - 1059.52s]  there are some ideas within Google
+[1059.52s - 1060.72s]  of the right way to approach this.
+[1060.72s - 1062.84s]  Sure. How do you approach advertising?
+[1062.84s - 1064.68s]  Well, you know, that's still,
+[1064.68s - 1066.84s]  we're still brainstorming that but I think it's,
+[1066.84s - 1069.76s]  I think it's, there are other also, you know,
+[1069.76s - 1072.48s]  very interesting ways when if you think about glasses, devices,
+[1072.48s - 1074.76s]  there are other revenue models out there.
+[1075.44s - 1077.20s]  So, you know, it's going to be interesting to see,
+[1077.20s - 1079.84s]  I don't think we've made any strong conclusions on that
+[1079.84s - 1082.96s]  but it's an area that needs very careful thought.
+[1082.96s - 1084.52s]  Just to get a definitive answer from you,
+[1084.52s - 1087.08s]  I think you've given it but I'm just going to do one more time.
+[1087.08s - 1089.60s]  I read before we met, Google has told advertisers
+[1089.60s - 1092.96s]  in recent days from last year that it plans to bring
+[1092.96s - 1096.80s]  ads to its AI chatbot Gemini in 2026.
+[1096.80s - 1098.68s]  Nope. We have no current plans.
+[1098.68s - 1099.52s]  That's what I can say.
+[1099.52s - 1100.84s]  All right, that's pretty different.
+[1100.84s - 1101.84s]  Yep.
+[1101.84s - 1103.56s]  All right, let's just, you know, keep going
+[1103.56s - 1106.40s]  through some of your competitors, anthropical.
+[1106.40s - 1108.12s]  Claude code.
+[1108.12s - 1109.72s]  Yeah, Claude code and Claude code work
+[1109.72s - 1111.32s]  have caused a tremendous amount of buzz.
+[1111.32s - 1112.64s]  Yeah.
+[1112.64s - 1115.24s]  It is amazing to see what some people have done.
+[1115.24s - 1118.96s]  I saw a post from the next Amazon executive who said
+[1118.96s - 1121.80s]  that he built a custom CRM in a weekend
+[1121.80s - 1123.44s]  or actually a day and a half.
+[1123.44s - 1124.28s]  Let's call it a weekend.
+[1126.04s - 1127.00s]  What do you think about it?
+[1127.00s - 1127.84s]  Yeah.
+[1127.84s - 1129.52s]  And do you plan to have an answer to it?
+[1129.52s - 1131.16s]  It's very exciting.
+[1131.16s - 1134.20s]  And I think, you know, Claude lost to Anthropic.
+[1134.20s - 1136.68s]  I think they built a very good model there with Claude.
+[1136.68s - 1139.24s]  We're very happy with the current coding capabilities
+[1139.24s - 1139.92s]  of Gemini 3.
+[1139.92s - 1142.60s]  It's very good at certain things, like front end work.
+[1142.60s - 1144.00s]  I've been using it over the Christmas
+[1144.00s - 1145.68s]  to prototype games.
+[1145.68s - 1146.92s]  So it's amazing.
+[1146.92s - 1148.44s]  It's getting me back into programming.
+[1148.44s - 1151.76s]  I love the whole vibe coding wave that's happening.
+[1151.76s - 1155.44s]  I think it will open up the whole productivity space
+[1155.44s - 1158.92s]  to designers, creatives, artists that maybe would have had
+[1158.92s - 1161.80s]  to work with teams about access to teams of programmers.
+[1161.80s - 1163.48s]  Now they can probably do, you know,
+[1163.48s - 1165.12s]  a lot more just on their own.
+[1165.12s - 1167.36s]  I think that's going to be amazing once
+[1167.36s - 1170.48s]  that's sort of out in the world in a more general way
+[1170.48s - 1174.92s]  to, you know, create lots of new creative opportunities.
+[1174.92s - 1178.20s]  We're working on, we're very happy with our work on code.
+[1178.20s - 1180.24s]  We've got a lot, you know, we've got more to do there.
+[1180.24s - 1184.16s]  We've just released anti-gravity our own IDE,
+[1184.16s - 1185.12s]  which is very, very popular.
+[1185.12s - 1188.40s]  We can't actually serve all the demand that we're seeing there.
+[1188.40s - 1190.12s]  And we're pushing very hard on coding
+[1190.12s - 1192.56s]  and tool use performance of Gemini.
+[1192.56s - 1195.60s]  But it's one thing that I think anthropic have fully focused on.
+[1195.60s - 1197.16s]  You know, they don't make image models,
+[1197.16s - 1198.96s]  multimodal models, world models.
+[1198.96s - 1201.80s]  They just do, you know, coding and language models.
+[1201.80s - 1203.24s]  And they're very, very good at that.
+[1203.24s - 1205.72s]  And, you know, we're pleased to be partnering on that
+[1205.72s - 1208.36s]  on the one hand and also it gives us something
+[1208.36s - 1211.40s]  to push for to improve with our own models.
+[1211.40s - 1215.60s]  Let's just talk broadly about the AI industry business.
+[1216.56s - 1220.20s]  I have a theory for how this could all fall apart
+[1220.20s - 1221.44s]  and I want to run it by you.
+[1221.44s - 1224.00s]  So it's three step, a three step process.
+[1224.00s - 1226.44s]  The first is that large language model training runs
+[1226.44s - 1228.48s]  produce limited returns.
+[1228.48s - 1230.88s]  The second is that there are flash models
+[1230.88s - 1235.72s]  like Gemini Flash that run AI computing as cheap as search.
+[1235.72s - 1238.80s]  And then step three is that the massive infrastructure
+[1238.80s - 1242.84s]  commitments that have been made become somewhat useless
+[1242.84s - 1244.36s]  given those two factors.
+[1244.36s - 1247.48s]  And there is a cascading collapse that happens.
+[1247.48s - 1250.20s]  Is that a legitimate worry?
+[1250.20s - 1252.04s]  I think it's a plausible possible scenario.
+[1252.04s - 1255.68s]  I don't think it's the likely one, in my opinion.
+[1255.68s - 1258.72s]  I mean, in my mind, there's no doubt AI's gone already proved
+[1258.72s - 1261.00s]  out enough, I would say, and our work,
+[1261.00s - 1263.24s]  I think, in things like science and alpha fold
+[1263.24s - 1265.60s]  and drug discovery that it's here to stay.
+[1265.60s - 1268.16s]  It's not like tomorrow, like, oh, we found that AI doesn't work.
+[1268.16s - 1270.24s]  We've gone way, we've blasted way past that.
+[1270.24s - 1272.56s]  So I think that's, it's clearly going to be
+[1272.56s - 1275.04s]  the most transformable technology in human history.
+[1275.04s - 1276.84s]  There's maybe a question mark about timelines.
+[1276.84s - 1278.24s]  Is it two years or five years?
+[1278.24s - 1280.52s]  I mean, either way, it's very soon
+[1280.52s - 1282.24s]  for something that's transformative.
+[1282.24s - 1284.68s]  And I think we're still in the nascent era
+[1284.68s - 1288.12s]  of actually figuring out how to make use of it and deploy it
+[1288.12s - 1291.00s]  because the technology is improving so fast.
+[1291.00s - 1293.32s]  I think there's a huge capability overhang actually
+[1293.32s - 1295.16s]  of what even today's models can do
+[1295.16s - 1299.12s]  that maybe even us as building those things don't fully know.
+[1299.12s - 1300.80s]  So I think there's just a vast amount
+[1300.80s - 1303.16s]  of product opportunities that we see.
+[1303.16s - 1304.88s]  And I think we're, as Google only,
+[1304.88s - 1306.60s]  just starting to scratch the surface now
+[1306.60s - 1310.72s]  of actually natively sort of plugging these things in
+[1310.72s - 1313.44s]  to our amazing existing products,
+[1313.44s - 1315.32s]  let alone building the new ones.
+[1315.32s - 1318.04s]  AI inbox, we've just started trialing.
+[1318.04s - 1320.00s]  I mean, who wants to do email admin?
+[1320.00s - 1321.76s]  I mean, we all love that to just go away.
+[1321.76s - 1324.92s]  That's my number one pain point for my work, King Day.
+[1324.92s - 1327.04s]  And there's so many examples like that,
+[1327.04s - 1329.72s]  just waiting to be addressed, I think,
+[1330.44s - 1333.76s]  agents in browsers helping out with YouTube,
+[1333.76s - 1335.92s]  obviously we're now powering search with it.
+[1335.92s - 1338.32s]  So I think there's enormous opportunities.
+[1338.32s - 1339.72s]  And if you're talking about the AI bubble,
+[1339.72s - 1340.88s]  if that's the question,
+[1340.88s - 1343.12s]  you know, I think it's fine there.
+[1343.12s - 1345.24s]  Well, I mean, it seems like that's the question.
+[1345.24s - 1346.52s]  I'm very happy to answer it.
+[1346.52s - 1349.72s]  Because I think, look, my view is it's not binary
+[1349.72s - 1351.00s]  when are we in a bubble, not in a bubble.
+[1351.00s - 1354.84s]  I think parts of the AI industry probably are.
+[1354.84s - 1357.32s]  And other parts I think it remains to be seen.
+[1357.32s - 1359.20s]  So I think some of the things are,
+[1359.44s - 1362.52s]  when you see seed rounds of tens of billions of dollars
+[1362.52s - 1365.56s]  of companies that basically have no product or research,
+[1365.56s - 1367.40s]  it's just some people coming together.
+[1367.40s - 1369.32s]  That seems a bit unsustainable to me
+[1369.32s - 1371.48s]  in a normal market, bit frothy.
+[1371.48s - 1374.68s]  On the other hand, we're businesses like us.
+[1374.68s - 1377.76s]  We have massive underlying businesses and products
+[1377.76s - 1381.44s]  that it's very obvious how AI would increase
+[1381.44s - 1384.60s]  the efficiency or the productivity of using those products.
+[1384.60s - 1387.76s]  And then it remains to be seen how popular the monetization
+[1387.76s - 1389.80s]  of these new AI native products,
+[1389.80s - 1392.96s]  like chatbots, glasses, all of these things.
+[1392.96s - 1395.64s]  We'll have to see, I think there will be enormous markets,
+[1395.64s - 1397.28s]  but they're yet to be proven out.
+[1397.28s - 1399.08s]  But from my perspective, you know,
+[1399.08s - 1402.92s]  running Google DeepMind is my job is to make sure
+[1402.92s - 1404.92s]  that whatever happens with an AI bubble,
+[1404.92s - 1407.88s]  if it bursts or if there isn't one and it continues,
+[1407.88s - 1409.04s]  we win either way.
+[1409.04s - 1411.28s]  And I think we're incredibly well positioned
+[1411.28s - 1414.56s]  as Alphabet in either case, you know,
+[1414.56s - 1416.68s]  doubling down on existing businesses in the one case
+[1416.68s - 1421.24s]  or being at a forefront in the frontier in the bull case.
+[1421.24s - 1422.28s]  Going back to thinking game,
+[1422.28s - 1425.56s]  speaking of the way that this will impact the economy,
+[1425.56s - 1429.28s]  I started to feel bad for the opponents of your technology.
+[1430.40s - 1433.08s]  Lisee Dahl demoralized.
+[1433.08s - 1433.92s]  Sure.
+[1433.92s - 1436.20s]  This guy, Manah, who played Starcraft, beat your bot,
+[1436.20s - 1439.60s]  but realized that it's basically over
+[1439.60s - 1441.68s]  for humans versus machines.
+[1442.68s - 1445.04s]  Now we're all up against this in some way
+[1445.04s - 1447.60s]  as this stuff makes its way into knowledge work.
+[1449.20s - 1451.04s]  I thought you were meaning our AI competitors.
+[1451.04s - 1451.88s]  Then I'm okay with it.
+[1451.88s - 1453.48s]  I don't feel sad about that.
+[1453.48s - 1454.32s]  Sorry.
+[1454.32s - 1455.32s]  Relentless progress of AI.
+[1455.32s - 1456.32s]  I mean the gamers.
+[1456.32s - 1457.68s]  Yeah.
+[1457.68s - 1459.92s]  You made me feel bad for gamers.
+[1459.92s - 1461.76s]  You know, but I want to ask about this,
+[1461.76s - 1464.28s]  you know, we're going to have the same situation
+[1464.28s - 1467.80s]  with knowledge work, that these models that, you know,
+[1467.80s - 1470.24s]  performed admirably against the world's best Starcraft
+[1470.24s - 1473.32s]  and go players are now starting to do our work.
+[1473.32s - 1475.68s]  And are we going to end up in the same position?
+[1475.68s - 1477.24s]  Well, look, let me, let's,
+[1477.24s - 1479.64s]  given you brought up games as an example,
+[1479.64s - 1481.80s]  let's, let's look at what's happening games.
+[1481.80s - 1484.48s]  So chess, we've had chess computers that are better
+[1484.48s - 1487.44s]  since I was a teenager than Gary Kasparov in the 90s.
+[1487.44s - 1489.36s]  Right, well, they weren't general AI systems,
+[1489.36s - 1491.12s]  but they were, you know, deep blue.
+[1491.12s - 1492.68s]  Chess is more popular than ever.
+[1492.68s - 1494.80s]  No one's interested in seeing computers playing computers.
+[1494.80s - 1497.36s]  We're interested in Magnus Carlson playing, you know,
+[1497.36s - 1500.00s]  the top, the other top chess players in the world.
+[1500.00s - 1503.24s]  Interestingly and go, the best South,
+[1503.24s - 1505.28s]  go player in the world as a South Korean.
+[1505.28s - 1507.28s]  And he was about 15, I think,
+[1507.28s - 1508.92s]  when AlphaGo match happened.
+[1508.92s - 1509.92s]  He's in his mid 20s now,
+[1509.92s - 1511.52s]  and he's by far the strongest player
+[1511.52s - 1513.72s]  there's ever been by the Elo ratings
+[1513.72s - 1516.16s]  because he's learned natively young enough,
+[1516.16s - 1517.92s]  he was, you know, he's the first generation
+[1517.92s - 1521.32s]  you could say that's learned with AlphaGo knowledge
+[1521.32s - 1522.60s]  in the knowledge pool.
+[1522.60s - 1525.12s]  And, you know, he may actually be stronger
+[1525.12s - 1526.92s]  than AlphaGo was back then.
+[1526.92s - 1529.40s]  So I think, and we will still enjoy Starcraft
+[1529.40s - 1531.68s]  and all the other computer games.
+[1531.68s - 1533.44s]  We enjoy human endeavor.
+[1533.44s - 1535.36s]  I think it's a bit more, it's a bit similar to like,
+[1535.36s - 1539.68s]  we still love the 100 meters Olympic race,
+[1539.68s - 1541.28s]  even though we have vehicles
+[1541.28s - 1543.52s]  that can go way faster than you say in bold.
+[1543.52s - 1545.20s]  But, you know, we don't, you know,
+[1545.20s - 1546.88s]  that's a different thing, right?
+[1546.88s - 1550.96s]  And so I think we have infinite capacity to adapt
+[1550.96s - 1555.96s]  and sort of evolve with our technologies.
+[1556.80s - 1558.24s]  Because why is that?
+[1558.24s - 1561.08s]  Because we have, we are general intelligences.
+[1562.04s - 1564.20s]  That's the thing about it is we are AGI systems,
+[1564.20s - 1565.60s]  we are obviously we're not artificial,
+[1565.60s - 1566.84s]  we're general systems.
+[1566.84s - 1570.04s]  And it's, and we are capable of inventing science
+[1570.04s - 1573.12s]  and we're tool making animals.
+[1573.12s - 1575.72s]  That's what separates us humans from the other animals
+[1575.72s - 1577.00s]  is we're able to make tools
+[1577.00s - 1579.84s]  all around modern civilization, including computers.
+[1579.84s - 1582.12s]  And of course, AI, being the ultimate expression
+[1582.12s - 1585.28s]  of computers, that all has come from our human minds
+[1585.28s - 1587.80s]  which were evolved for, you know,
+[1587.80s - 1589.16s]  hunter gathering lifestyle.
+[1589.16s - 1590.36s]  So it's kind of amazing.
+[1590.36s - 1592.48s]  We were able, and it shows how general we are
+[1592.48s - 1594.92s]  that we're able to get to the modern civilization
+[1594.92s - 1595.76s]  we see around us today.
+[1595.76s - 1597.52s]  And we're talking about things like AI
+[1597.52s - 1600.44s]  and, you know, science and physics and all these things.
+[1600.44s - 1602.28s]  And I think we'll adapt again.
+[1602.28s - 1603.92s]  But there is an important question.
+[1603.92s - 1606.20s]  Actually, beyond the economics one about jobs
+[1606.20s - 1608.44s]  and those things is purpose and meaning.
+[1608.44s - 1610.88s]  Because we all get a lot of our purpose and meaning
+[1610.88s - 1611.96s]  from the jobs we do.
+[1611.96s - 1613.92s]  I certainly do from the science I do.
+[1613.92s - 1617.72s]  So how does what happens when a lot of that is automated?
+[1617.72s - 1620.60s]  I think, you know, that's why I've been calling for,
+[1620.60s - 1623.44s]  you know, I think we knew new great philosophers actually.
+[1623.44s - 1625.96s]  And it will be a change to the human condition.
+[1625.96s - 1627.96s]  But I don't think it necessarily has to be worse.
+[1627.96s - 1630.12s]  I think it's like the industrial revolution.
+[1630.12s - 1631.56s]  Maybe 10X of that.
+[1631.56s - 1633.40s]  But we'll have to adapt again.
+[1633.40s - 1637.48s]  And I think we'll find new meaning and things.
+[1637.48s - 1639.56s]  And we do a lot of things already today
+[1639.56s - 1642.04s]  that are not just for economic gain.
+[1642.04s - 1644.12s]  You know, art, extreme sports,
+[1644.12s - 1647.36s]  expolio exploration, many of these things.
+[1647.36s - 1650.00s]  And maybe we'll have much more sophisticated
+[1650.00s - 1653.28s]  esoteric versions of those things in the future.
+[1653.28s - 1654.48s]  OK, two minutes left.
+[1654.48s - 1655.44s]  I have two questions.
+[1655.44s - 1657.52s]  I don't know if we're going to get to both of them.
+[1657.52s - 1660.72s]  Let me ask the one that I want to know the answer most about.
+[1660.72s - 1663.28s]  In a recent interview, you said that you have a theory
+[1663.28s - 1666.56s]  that information is the most fundamental unit
+[1666.56s - 1668.00s]  of the universe.
+[1668.00s - 1671.16s]  Energy, not matter, information.
+[1671.16s - 1671.76s]  Yeah.
+[1671.76s - 1673.00s]  How?
+[1673.00s - 1674.52s]  Well, look, I think if you look at energy,
+[1674.52s - 1676.32s]  I mean, I don't know if we'll ever cover this in two minutes.
+[1676.32s - 1681.44s]  But in energy, energy and matter, you can definitely,
+[1681.44s - 1683.36s]  I think a lot of people sort of think of them
+[1683.36s - 1686.08s]  as isomorphic with information.
+[1686.08s - 1688.12s]  But I think information is really the right way
+[1688.12s - 1689.56s]  to understand the universe.
+[1689.56s - 1693.00s]  So we think of biology and living systems.
+[1693.00s - 1695.72s]  We're information systems that are resisting entropy.
+[1695.72s - 1697.24s]  We're trying to retain our structure,
+[1697.24s - 1700.60s]  retain our information in the face of a randomness
+[1700.60s - 1702.00s]  that's happening around us.
+[1702.00s - 1706.76s]  And I think you can look at that in a larger physics scale.
+[1706.76s - 1710.80s]  So almost not just biology, but things like mountains
+[1710.80s - 1713.08s]  and planets and asteroids.
+[1713.08s - 1716.12s]  They've all been subject to some kind of selection pressure,
+[1716.12s - 1720.88s]  not Darwinian evolution, but some kind of external pressure.
+[1720.88s - 1723.16s]  And the fact that they've been stable over a long amount
+[1723.16s - 1726.40s]  of time means that that information is kind of stable
+[1726.40s - 1727.24s]  and meaningful.
+[1727.24s - 1730.20s]  So I think one could view the world
+[1730.20s - 1733.44s]  in terms of its complexity, information complexity.
+[1733.44s - 1735.16s]  And I think a lot of what we're doing
+[1735.16s - 1737.08s]  without the reason I'm thinking about all of that
+[1737.08s - 1739.36s]  is because of things like AlphaGo and AlphaFold,
+[1739.36s - 1743.12s]  especially AlphaFold, where we solve all the protein structures
+[1743.12s - 1745.28s]  that are kind of known to science.
+[1745.28s - 1748.04s]  And how we've done that will because only a certain number
+[1748.04s - 1750.64s]  of those in the kind of almost infinite possibilities
+[1750.64s - 1752.88s]  of protein structures are stable.
+[1752.88s - 1754.68s]  And those are the ones you've got to find.
+[1754.68s - 1757.12s]  So you've got to understand that topology,
+[1757.12s - 1759.20s]  that information topology, and follow it.
+[1759.20s - 1762.08s]  And then suddenly, these problems that seem to be intractable
+[1762.08s - 1765.40s]  because how can you find the needle in the haystack actually
+[1765.40s - 1767.92s]  become very tractable if you understand
+[1767.92s - 1770.84s]  the energy landscape or the information landscape around that.
+[1770.84s - 1773.96s]  And that's how I think eventually we'll solve most diseases
+[1773.96s - 1777.12s]  come up with new drugs, new materials, new superconductors
+[1777.12s - 1779.92s]  with the help of AI helping us navigate
+[1779.92s - 1781.36s]  that information landscape.
+[1781.36s - 1783.96s]  Dennis, before we go, I just want to wrap with this.
+[1783.96s - 1785.92s]  Well, maybe quickly this first one
+[1785.92s - 1788.00s]  and then a big question at the end.
+[1788.00s - 1791.88s]  In the thinking game, speaking of health and AI,
+[1791.88s - 1794.64s]  there's this moment where there's a discussion in the lab
+[1794.64s - 1797.16s]  about whether to release the results of AlphaFold.
+[1797.16s - 1798.36s]  And you kind of sit there admiringly
+[1798.36s - 1800.40s]  and you're like, why are we going through a process?
+[1800.40s - 1802.56s]  Release it, release it now.
+[1802.56s - 1805.56s]  Talk a little bit about the lesson from there.
+[1805.56s - 1807.92s]  Yeah, well, look, we started AlphaFold
+[1807.92s - 1811.40s]  to crack a unbelievably tough scientific challenge,
+[1811.40s - 1814.36s]  a 50 year ground challenge of protein folding
+[1814.36s - 1815.96s]  and protein structure prediction.
+[1815.96s - 1817.20s]  And the reason we worked on that
+[1817.20s - 1818.56s]  and the reason we've put so much effort into it
+[1818.56s - 1820.44s]  is we sort of thought there is a root node problem.
+[1820.44s - 1823.04s]  If we could solve it and put that out in the world,
+[1823.04s - 1826.12s]  it could be, it could do an amazing untold impact
+[1826.12s - 1829.72s]  on things like human health and understanding biology.
+[1829.72s - 1832.20s]  But we as a team, no matter how talented
+[1832.20s - 1833.32s]  or hard hard-working we are,
+[1833.32s - 1836.84s]  we would only be able to scratch a small tiny amount
+[1836.84s - 1838.44s]  of that potential on our own.
+[1838.44s - 1839.28s]  It's clear.
+[1839.28s - 1842.04s]  So in that case, and in this case,
+[1842.04s - 1844.00s]  it was obviously the right thing to do
+[1844.00s - 1845.96s]  to maximize the benefit to the world here,
+[1845.96s - 1847.88s]  to put it out there to the scientific,
+[1847.88s - 1850.12s]  massive scientific community,
+[1850.12s - 1852.40s]  to build on top of and use AlphaFold.
+[1852.40s - 1854.48s]  And it's been incredibly gratifying
+[1854.48s - 1856.08s]  to see three million researchers
+[1856.08s - 1858.04s]  around the world use it in their important research.
+[1858.04s - 1861.96s]  I think in future, almost every single drug
+[1861.96s - 1863.16s]  that's discovered from now on
+[1863.16s - 1865.00s]  will probably have used AlphaFold at some point
+[1865.00s - 1867.56s]  in that process, which is amazing for us
+[1867.56s - 1871.16s]  and really this is what we do, all the work we do for.
+[1871.16s - 1872.92s]  I also read that moment, you tell me from wrong,
+[1872.92s - 1876.08s]  is something of a metaphor, small,
+[1876.08s - 1878.28s]  passionate AI division,
+[1878.28s - 1880.16s]  kind of yelling in a big company,
+[1880.16s - 1882.12s]  get this out, cut the red tape.
+[1882.12s - 1882.96s]  Yeah, potentially.
+[1882.96s - 1884.92s]  But look, I mean, we've had amazing support
+[1884.92s - 1886.64s]  from the beginning from Google.
+[1886.64s - 1890.76s]  The reason that we joined forces with Google back in 2014
+[1890.76s - 1894.16s]  is Google itself is a scientific research
+[1894.16s - 1896.48s]  engineering technical lead company
+[1896.48s - 1898.72s]  always has been and has that at its core.
+[1898.72s - 1902.04s]  And that's why I think that we have the scientific method
+[1902.04s - 1903.08s]  and the scientific approach,
+[1903.08s - 1905.32s]  that thoughtful approach, that rigorous approach
+[1905.32s - 1906.44s]  in everything we do.
+[1906.44s - 1909.40s]  So of course, they're going to love something like AlphaFold.
+[1909.40s - 1912.12s]  Okay, here's the big question at the end.
+[1912.12s - 1917.08s]  You built AlphaGo, trained the computer to play Go
+[1917.08s - 1918.64s]  on human knowledge.
+[1918.64s - 1921.24s]  And then once it mastered the human level playing,
+[1921.24s - 1925.32s]  you kind of let it loose with a program called AlphaZero.
+[1925.32s - 1926.56s]  And it started doing things
+[1926.56s - 1928.32s]  that you could never even imagine
+[1928.32s - 1931.48s]  and making new circuits in ways that surprised you.
+[1932.56s - 1935.24s]  Eventually, maybe, there will come a time
+[1935.24s - 1940.16s]  where LLMs are some version of them reach a mastery
+[1940.16s - 1942.92s]  of human knowledge in the same way.
+[1942.92s - 1946.28s]  What is going to happen when you then let that loose
+[1946.28s - 1949.32s]  and it does the same, potentially does the same thing
+[1949.32s - 1950.16s]  as AlphaZero.
+[1950.16s - 1951.00s]  Yeah, I think it's great.
+[1951.00s - 1952.88s]  So I think, I mean, that's what to me
+[1952.88s - 1955.76s]  is it would be the AGI moment is, you know,
+[1955.76s - 1958.68s]  then it will discover a new superconductor,
+[1958.68s - 1959.96s]  room temperature superconductor
+[1959.96s - 1961.84s]  that's possible in the laws of physics,
+[1961.84s - 1964.92s]  but we just haven't found that needle in the haystack
+[1964.92s - 1966.08s]  or a new source of energy
+[1966.08s - 1968.44s]  and new way to build optimal batteries.
+[1968.44s - 1970.52s]  I think all of those things will become possible.
+[1970.52s - 1973.04s]  And indeed, not just possible, I think they will happen
+[1973.04s - 1976.00s]  once we get to a system that's, first of all,
+[1976.00s - 1978.32s]  got to, you know, human level knowledge.
+[1978.32s - 1980.16s]  And then there'll be some techniques.
+[1980.16s - 1982.36s]  Maybe it will have to help invent some of those techniques
+[1982.36s - 1984.88s]  that kind of like AlphaZero that will allow it
+[1984.88s - 1987.88s]  to go beyond into new on charter territory.
+[1987.88s - 1990.20s]  That idea of it, like plugging weather system
+[1990.20s - 1992.48s]  into its brain, like it's going to be on that.
+[1992.48s - 1993.32s]  That one.
+[1993.32s - 1993.96s]  Yeah, exactly.
+[1993.96s - 1995.40s]  All right, exciting times.
+[1995.40s - 1996.64s]  Demis, thanks for coming on the show.
+[1996.64s - 1997.48s]  Thank you.
+[1997.48s - 1998.32s]  Thank you, everybody.
+[1998.32s - 2000.64s]  Thank you so much.
+[2000.64s - 2001.48s]  Thank you so much.
+[2001.48s - 2002.48s]  We'll see you next time.
+[2002.48s - 2003.48s]  Good to have you.
+[2012.36s - 2013.36s]  Thank you.
+[2013.36s - 2014.36s]  Bye.
+[2014.36s - 2015.36s]  Bye.
+[2015.36s - 2016.36s]  Bye.
+[2043.36s - 2046.28s]  Switch today at QuantumFiber.com, limited availability,
+[2046.28s - 2048.00s]  service, and speed and select locations only.
+[2048.00s - 2050.32s]  Well, the holidays have come and gone once again.
+[2050.32s - 2052.44s]  But if you've forgotten to get that special someone
+[2052.44s - 2054.72s]  in your life a gift, well, Mint Mobile
+[2054.72s - 2057.16s]  is extending their holiday offer of half
+[2057.16s - 2058.44s]  off unlimited wireless.
+[2058.44s - 2059.68s]  So here's the idea.
+[2059.68s - 2060.60s]  You get it now.
+[2060.60s - 2063.04s]  You call it an early present for next year.
+[2063.04s - 2064.44s]  What do you have to lose?
+[2064.44s - 2067.52s]  Give it a try at minemobile.com slash switch.
+[2067.52s - 2068.96s]  Limited time, 50% off regular price,
+[2068.96s - 2071.32s]  menu customers up from payment required, $45 for three months,
+[2071.32s - 2073.76s]  $190 for six months, or $180 for 12 month plan.
+[2073.76s - 2074.60s]  Taxes and fees extra.
+[2074.60s - 2076.16s]  Speeds may slow after 50 gigabytes per month
+[2076.16s - 2076.92s]  when network is busy.
+[2076.92s - 2077.92s]  See terms.
